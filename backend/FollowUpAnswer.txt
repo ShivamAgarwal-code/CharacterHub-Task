@@ -1,0 +1,6 @@
+So there are multiple ways we can fetch 3 random comments associated to post but there are two which I feel makes the most sense if let's say we have large database. 
+
+1. Using Database-specific Random Functions: One advantage is that it's more effecient than order_by('?'). Problem with order_by is that it does a full table scan.
+
+2. Using Reservoir Sampling: It's specially useful in case where we have very large dataset. Though it's implementation is bit complex compared to other methods. 
+

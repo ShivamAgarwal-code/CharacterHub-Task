@@ -1,0 +1,11 @@
+{
+  "name": "backend_repo",
+  "version": "1.0.0",
+  "description": "- Imagine that a frontend design has been drafted to present data that we already have in our DB: `Posts` and `Comments`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
